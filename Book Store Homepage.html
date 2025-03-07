@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Home Page</title>
+    <link rel="stylesheet" href="Book Store.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionhomepage">
+        <div class="bg-container">
+            <h1 class="main-heading">Popular Book</h1>
+            <div class="apg-card d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="apj-image d-flex flex-column " />
+                <div class="apj-discripton">
+                    <h1 class="apj-heading">wings of fire</h1>
+                    <p class="apj-para">An Autography of<br />
+                        Abdul Kalam<br /> </p>
+                    <p class="apj-para1">by Arun tiwari</p>
+                    <button class="btn btn-primary" onclick="display('sectionwings')">Read now</button>
+                </div>
+            </div>
+            <h1 class=bottom-heading>Recommended Books</h1>
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="chetan-image" />
+                <div>
+                    <h1 class="chetanbhagat-heading">the 3 mistakes of my life</h1>
+                    <p class="chetanbhagat-para">indian author <br />
+                        by chetan bhagat <br /> </p>
+                        <div class="bt2">
+                            <button class="btn btn-primary" onclick="display('section3mistakes')">readnow</button>
+                        </div>
+                </div>
+            </div>
+              <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="harryporter-image" />
+                <div>
+                    <h1 class="harryporter-heading">Harry Porter</h1>
+                    <p class="harryporter-para">and the sorcerer's stone<br />
+                        by J.K.Rowling <br /></p>
+                        <div class="bt3">
+                            <button class="btn btn-primary" onclick="display('sectionharryporter')">readnow</button>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionwings">
+        <div class="wings-container">
+           <div class="ap-img">
+               <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wings-image " />
+           </div>
+           <h1 class=heading-page1>Wings of Fire</h1>
+           <p class=para-page1>by Arun Tiwari</p>
+           <p class="wings-description">The book begins with the childhood of Kalam's life. In the beginning, he introduces us to his family and tries to familiarize us with his birthplace Rameswaram. In childhood, he was a great admirer of his father, Jainulabdeen. He was a man of great wisdom and kindness, and Pakshi Lakshmana Sastry, a close friend of his father and the head priest of the Rameswaram Temple. He had an ideal helpmate in his mother, Ashiamma. He was also influenced by his close friend, Ahmed Jalaluddin</p>
+           <div class=text-center>
+               <button class="btn btn-warning" onclick="display('sectionhomepage')">Back</button>
+               <button class="btn btn-primary">buy now</button>
+   
+           </div> 
+       </div>
+     
+   </div>
+   <div id="section3mistakes">
+    <div class="wings-container">
+       <div class="ap-img">
+           <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="wings-image " />
+       </div>
+       <h1 class=heading-page1>the 3 mistakes of my life</h1>
+       <p class=para-page1>by Chetan Bhagat</p>
+       <p class="wings-description">Chetan Bhagat is the author of fourteen blockbuster books. These include ten novels – Five Point Someone (2004), One Night @ the Call Center (2005), The 3 Mistakes Of My Life (2008), 2 States (2009), Revolution 2020 (2011), Half Girlfriend (2014), One Indian Girl (2016) The Girl In Room 105 (2018), One Arranged Murder (2020), 400 Days (2021) and four non-fiction titles— What Young India Wants (2012) Making India Awesome(2015), India Positive (2019) and 11 Rules For Life (2024). </p>
+       <div class=text-center>
+           <button class="btn btn-warning" onclick="display('sectionhomepage')">Back</button>
+           <button class="btn btn-primary">buy now</button>
+
+       </div> 
+   </div>
+ 
+</div>
+<div id="sectionharryporter">
+    <div class="wings-container">
+       <div class="ap-img">
+           <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="wings-image " />
+       </div>
+       <h1 class=heading-page1>Harry Porter</h1>
+       <p class=para-page1>by J.K.Rowling </p>
+       <p class="wings-description"> Harry Potter and the Chamber of Secrets was released back in 2002, and it marked the second movie in the adaptations of the fantasy books, written by JK Rowling. The film follows Harry and his mates during their second year at Hogwarts School of Witchcraft and Wizardry. The much-loved franchise still has a strong legion of adoring fans, but it seems some of them have only just spotted a glaring gaffe in the film, </p>
+       <div class=text-center>
+           <button class="btn btn-warning" onclick="display('sectionhomepage')">Back</button>
+           <button class="btn btn-primary">buy now</button>
+
+       </div> 
+   </div>
+ 
+</div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>  
+</body>
+</html>

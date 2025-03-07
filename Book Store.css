@@ -1,0 +1,138 @@
+.bg-container{
+    background-color: #1b1b1b;
+    height: 95vh;
+    width: 60vh;
+    margin:15px;
+}
+.main-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    padding:15px;
+}
+.apg-card{
+    background-color:#e6f6ff ;
+    margin:15px;
+    border-radius: 15px;
+}
+.apj-image{
+     /* height: 185px; */
+     width: 125px;
+
+}
+.apj-heading{
+    font-family: "Roboto";
+    font-size:27px;
+    color:#183b56;
+    font-weight: 700;
+}
+.apj-para{
+    font-family: "Roboto";
+    color:#1b1b1b;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.apj-para1{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    color:#183b56;
+
+}
+.apj-discripton{
+    padding-left: 25px;
+    padding-top: 10px;
+
+
+}
+.btn{
+    margin-bottom: 10px;
+}
+.bottom-heading{
+    font-family: "Roboto";
+    font-size:25px;
+    color:white;
+    font-weight: 600;
+    padding-left:12px;
+}
+.chetan-image{
+    height: 145px;
+    width: 95px;
+    padding-left: 12px;
+}
+.chetanbhagat-heading{
+    font-family: "Roboto";
+    font-size:22px;
+    color:white;
+    padding-left: 12px;
+
+}
+.chetanbhagat-para{
+    font-family: "Roboto";
+    font-size:17px;
+    color:white;
+    padding-left: 12px;
+}
+.bt2{
+    padding-left: 12px;;
+}
+.harryporter-image{
+    margin-top:17px;
+    height: 145px;
+    width: 95px;
+    padding-left: 12px;
+}
+.harryporter-heading{
+    font-family: "Roboto";
+    font-size:22px;
+    color:white;
+    padding-left: 12px;
+    margin-top:17px;
+}
+.harryporter-para{
+    font-family: "Roboto";
+    font-size:17px;
+    color:white;
+    padding-left: 12px;
+}
+.bt3{
+    padding-left:12px;
+}
+.wings-container{
+    background-color: #1b1b1b;
+    height: 95vh;
+    width: 60vh;
+    margin:15px;
+}
+.wings-image{
+    height: 290px;
+    width: 190px;
+    margin-top: 15px;
+    
+}
+.ap-img{
+    text-align:center;
+}
+.heading-page1{
+    font-family: "Roboto";
+    font-size:33px;
+    color:white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 15px;
+}
+.para-page1{
+    font-family: "Roboto";
+    font-size:21px;
+    color: #9aa5b1;
+    text-align: center;
+}
+.wings-description{
+    font-family: "Roboto";
+    font-size:15px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 10px;
+}
